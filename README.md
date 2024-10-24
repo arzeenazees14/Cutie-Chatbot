@@ -1,1 +1,23 @@
 # Cutie-Chatbot
+
+**#Installation & Setup#**
+[Install Python] https://www.dataquest.io/blog/installing-python-on-mac/
+
+[Install pip] https://phoenixnap.com/kb/install-pip-mac
+
+If you have Python & pip installed then check their version in the terminal or command line tools
+
+python3 --version
+pip --version
+Installing Flask
+In your terminal run the requirements.txt file using this pip
+
+pip install -r requirements.txt
+ChatBot Link
+The Chatbot is constructed using the Microsoft/DialoGPT-medium model.
+
+https://huggingface.co/microsoft/DialoGPT-medium
+User-Html
+var userHtml = '<div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send">' + user_input + '<span class="msg_time_send">'+ time + 
+    '</span></div><div class="img_cont_msg"><img src="https://i.ibb.co/d5b84Xw/Untitled-design.png" class="rounded-circle user_img_msg"></div></div>';
+Bot-HTML
